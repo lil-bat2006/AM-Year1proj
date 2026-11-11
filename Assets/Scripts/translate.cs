@@ -13,9 +13,7 @@ public class translate : MonoBehaviour
             transform.Translate (0,0,-10);
             Debug.Log("W key Pressed");
         }
-        {
-            transform.Translate(transform.forward*movementSpeed*Time.deltaTime);
-        }
+        
         //move backwards
         if (Input.GetKey(KeyCode.S))
         {
@@ -23,9 +21,16 @@ public class translate : MonoBehaviour
             Debug.Log("S key Pressed");
         }
     
-        {
+       /*
+       {
+            transform.Translate(transform.forward*movementSpeed*Time.deltaTime);
+        }
+       
+       {
             transform.Translate(-transform.forward*movementSpeed*Time.deltaTime);
         }
+        
+        */
         
 
 
