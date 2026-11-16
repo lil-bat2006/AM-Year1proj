@@ -67,5 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "AM-Year1proj.slnx"
+    "dotnet.defaultSolution": "AM-Year1proj.slnx",
+    "window.autoDetectColorScheme": false
 }
