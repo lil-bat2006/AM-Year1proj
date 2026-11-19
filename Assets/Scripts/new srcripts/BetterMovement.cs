@@ -27,5 +27,7 @@ public class BetterMovement : MonoBehaviour
             transform.Translate(transform.right*mySpeed*Time.deltaTime, Space.World);//old way of moving - moves 1 unit per frame  
             Debug.Log("W is pressed and the position is " + transform.position);
         }
+
+        
 }
 }
