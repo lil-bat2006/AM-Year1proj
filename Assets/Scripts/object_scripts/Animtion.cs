@@ -16,12 +16,12 @@ public class OnClickAnimations : MonoBehaviour
    
     void Start()
     {
-        thisAnimator = cabainet1 doors.GetComponent<Animator>(); //this is us taking that variable name and assigning the specifc animator thats on this gameObject as the animator we want to access
+        thisAnimator = gameObject.GetComponent<Animator>(); //this is us taking that variable name and assigning the specifc animator thats on this gameObject as the animator we want to access
     }
 
     void OnMouseDown()
     {
-        thisAnimator.SetBool("DoorClicked", true); //This accesses the specific animator and it searches for the parameter we set earlier, so the orange text needs to match the name of the parameter we set earlier exactly. It assigns the bool state to true.
+        thisAnimator.SetBool("IsClicked", true); //This accesses the specific animator and it searches for the parameter we set earlier, so the orange text needs to match the name of the parameter we set earlier exactly. It assigns the bool state to true.
     }
 
 
